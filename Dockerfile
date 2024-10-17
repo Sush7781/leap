@@ -1,4 +1,4 @@
-from python3.12
+from python:3.12
 run pip install && apt-get-update
 workdir /leap
 copy app_1.py ./
