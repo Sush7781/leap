@@ -5,7 +5,7 @@ WORKDIR /leap
 
 # Copy application files into the container
 COPY app.py ./
-COPY requirements.txt ./  # Ensure requirements.txt is copied here
+COPY requirements.txt  requirements.txt  # Ensure requirements.txt is copied here
 COPY Sample.xlsx ./
 
 # Install virtualenv if not already installed
